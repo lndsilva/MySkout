@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/drawable/borda_botao.xml" value="0.1195" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/drawable/botao_desenho.xml" value="0.164" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/drawable/ic_baseline_email.xml" value="0.1655" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/activity_main.xml" value="0.3234375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/inner_layout.xml" value="0.3375" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/janela_componentes_layout.xml" value="0.3375" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/janela_coordnator_layout.xml" value="0.3375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/janela_frame_layout.xml" value="0.3375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/janela_relative_layout.xml" value="0.25" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/janela_table_layout.xml" value="0.25" />

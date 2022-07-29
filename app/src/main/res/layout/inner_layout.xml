@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/botao_desenho"
     tools:context=".InnerActivity">
 
     <LinearLayout
@@ -20,6 +21,7 @@
             android:id="@+id/edtUsuario"
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:background="@drawable/borda_botao"
             android:drawableRight="@drawable/ic_baseline_email"
             android:hint="@string/insira_seu_e_mail"
             android:inputType="textEmailAddress"
@@ -29,6 +31,8 @@
             android:id="@+id/edtSenha"
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borda_botao"
             android:drawableRight="@drawable/ic_baseline_lock"
             android:hint="@string/insira_sua_senha"
             android:inputType="textPassword"
@@ -39,6 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:background="@drawable/borda_botao"
             android:text="Entrar" />
 
         <Button
@@ -46,6 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:backgroundTint="#000"
             android:text="Sair" />
 
     </LinearLayout>
