@@ -21,6 +21,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 //abrir a janela de InnerActivity
                 startActivity(new Intent(getApplicationContext(), InnerActivity.class));
+                finish();
 
             }
         }, 3000);
