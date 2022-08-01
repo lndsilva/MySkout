@@ -33,10 +33,12 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/temaSemBarra" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true" android:theme="@style/temaSemBarra" >
+            android:exported="true"
+            android:theme="@style/temaSemBarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
