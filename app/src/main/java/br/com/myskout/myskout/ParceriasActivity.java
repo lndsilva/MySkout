@@ -7,14 +7,34 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class ParceriasActivity extends AppCompatActivity {
+    //Criando a variavel para o botão FAB parcerias
+    FloatingActionButton fabParcCadastrar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.parcerias_layout);
+
+        //Apresentar o xml ao Java
+        fabParcCadastrar = findViewById(R.id.fabParcCadastrar);
+
+        //Criar o clique no botão FAB parcerias
+        fabParcCadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),
+                        "Cliquei no botão cadastrar",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
     }
 
     //Criando e adicionando o menu na activity parcerias
