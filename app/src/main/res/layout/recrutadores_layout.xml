@@ -7,6 +7,23 @@
     android:orientation="vertical"
     tools:context=".RecrutadoresActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:text="Recrutadores"
+        android:textColor="#F4511E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="#000000" />
+
 
     <ListView
         android:id="@+id/lstRecrutadores"
