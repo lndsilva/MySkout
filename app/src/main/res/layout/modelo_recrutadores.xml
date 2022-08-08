@@ -10,6 +10,7 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/imgModeloRecr"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginLeft="3dp"
@@ -25,6 +26,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/txtModeloRecrTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Kleiton José"
@@ -33,6 +35,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/txtModeloRecrSubTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Gerente de Recursos Humanos"
@@ -40,6 +43,7 @@
                 android:textStyle="normal" />
 
             <TextView
+                android:id="@+id/txtModeloRecrInformacoes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10sp"
@@ -57,9 +61,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:numStars="1"
-                    android:rating="1" />
+                    android:progressTint="#000"
+                    android:rating="1"
+                    android:stepSize="0.1" />
 
                 <TextView
+                    android:id="@+id/txtModeloRating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5sp"
