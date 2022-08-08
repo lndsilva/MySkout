@@ -38,7 +38,7 @@ public class RecrutadoresActivity extends AppCompatActivity {
             "Auxiliar na análise de documentação e curriculos",
             "Supervisão dos processos de pessoas", "Verifica os cargos e salários",
             "Realiza a criação de treinamento de pessoas e processos."};
-    String rating[] = {"8,5", "7,0", "8,5", "9,4",
+    String rating[] = {"8,5", "8,3", "8,5", "9,4",
             "8,7", "8,9", "9,8", "8,8", "9,5"};
 
 
